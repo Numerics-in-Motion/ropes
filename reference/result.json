@@ -1,0 +1,37 @@
+{
+  "mass_kg": 80.0,
+  "gravity_m_s2": 9.81,
+  "rated_impact_kN": 8.8,
+  "standard_fall_factor": 1.77,
+  "EA_eff_N": 22902.49198039588,
+  "cases": {
+    "A": {
+      "fall_m": 2.0,
+      "rope_m": 1.0,
+      "peak_force_kN": 9.300163401808254,
+      "max_stretch_m": 0.40607648328265,
+      "turnaround_s": 0.7368431370113545
+    },
+    "B": {
+      "fall_m": 6.0,
+      "rope_m": 6.0,
+      "peak_force_kN": 6.831589433442572,
+      "max_stretch_m": 1.7897413362590298,
+      "turnaround_s": 1.3522496404858877
+    },
+    "C": {
+      "fall_m": 12.0,
+      "rope_m": 24.0,
+      "peak_force_kN": 5.096387497223476,
+      "max_stretch_m": 5.34061097098348,
+      "turnaround_s": 2.07193077346399
+    }
+  },
+  "C_lower_peak_than_A_percent": 45.201097259940916,
+  "fixed_stiffness_counterfactual_kN": {
+    "A": 4.334235848714993,
+    "B": 6.831589433445601,
+    "C": 9.300163401808447
+  },
+  "tolerance_relative": 1e-06
+}
